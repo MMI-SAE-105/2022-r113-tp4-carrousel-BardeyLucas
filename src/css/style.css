@@ -21,6 +21,7 @@ max-width width width
     display:flex;
     /* largeur du parent */
     width: 100%;
+    overflow-x:initial;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
   }
@@ -77,5 +78,5 @@ list-style:none;/* enlève les puces par défaut */
 gap: 1rem;/* espace entre les enfants */
 }
 actif{
-  
+  background-color: aquamarine;
 }
